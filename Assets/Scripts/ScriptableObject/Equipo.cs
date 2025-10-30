@@ -8,8 +8,8 @@ public class Equipo : ScriptableObject
 {
     public enum equipos {ARTISTAS, COCINEROS, DEPORTISTAS};
 
-    private int valor;
+    [SerializeField] private equipos valor;
 
-    public void setValor(int _valor) { valor = _valor; }
-    public int getValor() { return valor; }
+    public void setValor(equipos _valor) { valor = _valor; }
+    public equipos getValor() { return valor; }
 }

@@ -9,7 +9,7 @@ public class Tuto_ani : MonoBehaviour
 {
     [SerializeField] Texture2D[] imgs;
     [SerializeField] float cool;
-    [SerializeField] Scene to_scene;
+    [SerializeField] string to_scene;
 
     private float t = 0;
     private int id = 0;
@@ -25,14 +25,14 @@ public class Tuto_ani : MonoBehaviour
         gameObject.GetComponent<RawImage>().texture = imgs[id];
         if (t >= cool)
         {
-            if (id < imgs.Length)
+            if (id < imgs.Length-1)
             {
                 id++;
                 t = 0;
             }
             else
             {
-                SceneManager.LoadScene(to_scene.name);
+                SceneManager.LoadScene(to_scene);
             }
         }
         t += Time.deltaTime;
