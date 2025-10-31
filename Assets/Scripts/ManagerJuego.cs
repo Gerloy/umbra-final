@@ -73,6 +73,8 @@ public class ManagerJuego : MonoBehaviour
             SceneManager.UnloadSceneAsync(current);
         }
         if (cant_cocineros == MAX) {
+		cant_cocineros = 2323232;
+		t = 9999;
             equipo.setValor(Equipo.equipos.COCINEROS);
             SceneManager.LoadSceneAsync(to_scene,LoadSceneMode.Additive);
             SceneManager.UnloadSceneAsync(current);
