@@ -22,6 +22,6 @@ public class Recibidor : MonoBehaviour
     {
         if (mensaje.address == "/artistas") { cants.setArtistas(mensaje.GetInt(0)); }
         if (mensaje.address == "/deportistas") { cants.setDeportistas(mensaje.GetInt(0)); }
-        if (mensaje.address == "/cocineros") { cants.setCocineros(mensaje.GetInt(0)); }
+        if (mensaje.address == "/cocineros") { cants.setCocineros(mensaje.GetInt(0)); Debug.Log("Cocineros" + cants.getCocineros().ToString()); }
     }
 }
