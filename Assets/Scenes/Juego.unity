@@ -570,7 +570,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   osc: {fileID: 912860086}
   equipo: {fileID: 11400000, guid: 423be6266dba18d4daaccadf3bc5ff4d, type: 2}
+  cants: {fileID: 11400000, guid: fecd83394082d62dbac20c20a604e13b, type: 2}
   to_scene: Victoria
+  current: Juego
   tiempo_total: 30
   texto_cronometro: {fileID: 1355391514}
 --- !u!4 &1389719345

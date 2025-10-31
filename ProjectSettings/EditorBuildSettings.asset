@@ -11,5 +11,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: e42c6f16883b13845baf44c90e5a11c8
+  - enabled: 1
+    path: Assets/Scenes/Pre-Juego.unity
+    guid: 6b0f1a87d0f23304196ae5d66b56e2df
+  - enabled: 1
+    path: Assets/Scenes/Juego.unity
+    guid: e31c7191e35c66a4e98a8775f9b3ac23
+  - enabled: 1
+    path: Assets/Scenes/Victoria.unity
+    guid: 64b269ee84ba5764390b24b45a5b9116
+  - enabled: 1
+    path: Assets/Scenes/OSC.unity
+    guid: 3140eca21358a9050a97d2fdcc742f9d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

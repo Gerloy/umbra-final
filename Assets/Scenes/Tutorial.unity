@@ -210,7 +210,8 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 7a436a61818a1ca4aa13031b27904b86, type: 3}
   - {fileID: 2800000, guid: bb54f291568ca3f49a73c47c1b88fefc, type: 3}
   cool: 3
-  to_scene: Pre_Juego
+  to_scene: Pre-Juego
+  current: Tutorial
 --- !u!1 &824941040
 GameObject:
   m_ObjectHideFlags: 0

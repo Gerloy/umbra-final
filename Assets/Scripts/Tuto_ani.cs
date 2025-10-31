@@ -10,6 +10,7 @@ public class Tuto_ani : MonoBehaviour
     [SerializeField] Texture2D[] imgs;
     [SerializeField] float cool;
     [SerializeField] string to_scene;
+    [SerializeField] string current;
 
     private float t = 0;
     private int id = 0;
@@ -32,7 +33,8 @@ public class Tuto_ani : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene(to_scene);
+                SceneManager.LoadSceneAsync(to_scene,LoadSceneMode.Additive);
+                SceneManager.UnloadSceneAsync(current);
             }
         }
         t += Time.deltaTime;

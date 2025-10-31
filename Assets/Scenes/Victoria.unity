@@ -405,6 +405,7 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 06e19c39785abda49bb339492a0c9cbf, type: 3}
   cool: 10
   to_scene: Inicio
+  current: Victoria
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

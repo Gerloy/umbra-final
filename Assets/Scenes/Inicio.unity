@@ -207,6 +207,7 @@ MonoBehaviour:
   img: {fileID: 2800000, guid: 613c336c718abf74c8295235bb0368e3, type: 3}
   cool: 10
   to_scene: Tutorial
+  current: Inicio
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

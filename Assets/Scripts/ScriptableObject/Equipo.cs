@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.SearchService;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Equipo", menuName = "ScriptableObjects/SpawnManagerScriptableObject", order = 1)]
+[CreateAssetMenu(fileName = "Equipo", menuName = "ScriptableObjects/Equipo", order = 1)]
 public class Equipo : ScriptableObject
 {
     public enum equipos {ARTISTAS, COCINEROS, DEPORTISTAS};
