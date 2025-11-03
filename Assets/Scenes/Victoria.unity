@@ -371,7 +371,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 06e19c39785abda49bb339492a0c9cbf, type: 3}
+  m_Texture: {fileID: 2800000, guid: 59053ce5abe99fea4b9aa41ed2765bf1, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -400,9 +400,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equipo: {fileID: 11400000, guid: 423be6266dba18d4daaccadf3bc5ff4d, type: 2}
   imgs:
-  - {fileID: 2800000, guid: 06e19c39785abda49bb339492a0c9cbf, type: 3}
-  - {fileID: 2800000, guid: 06e19c39785abda49bb339492a0c9cbf, type: 3}
-  - {fileID: 2800000, guid: 06e19c39785abda49bb339492a0c9cbf, type: 3}
+  - {fileID: 2800000, guid: 59053ce5abe99fea4b9aa41ed2765bf1, type: 3}
+  - {fileID: 2800000, guid: 59053ce5abe99fea4b9aa41ed2765bf1, type: 3}
+  - {fileID: 2800000, guid: a7947f759cbfc334c9d97f8dbc6a2a71, type: 3}
   cool: 10
   to_scene: Inicio
   current: Victoria

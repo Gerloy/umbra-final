@@ -12,6 +12,7 @@ public class Victoria : MonoBehaviour
     [SerializeField] float cool;
     [SerializeField] string to_scene;
     [SerializeField] string current;
+    private bool cambio_scn;
     private float t = 0;
     // Start is called before the first frame update
     void Start()
@@ -23,8 +24,11 @@ public class Victoria : MonoBehaviour
     {
         Debug.Log((int)equipo.getValor());
         if (t >= cool){
-            SceneManager.LoadSceneAsync(to_scene,LoadSceneMode.Additive);
-            SceneManager.UnloadSceneAsync(current);
+            if(!cambio_scn){
+                SceneManager.LoadSceneAsync(to_scene,LoadSceneMode.Additive);
+                SceneManager.UnloadScene(current);
+                cambio_scn = true;
+            }
         }
         gameObject.GetComponent<RawImage>().texture = imgs[(int)equipo.getValor()];
         t += Time.deltaTime;

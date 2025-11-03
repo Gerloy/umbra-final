@@ -177,7 +177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: c43bb3349c0a8d04381e76fed2742a50, type: 3}
+  m_Texture: {fileID: 2800000, guid: cc912fcf1def61e39bbf783a2b9ef50c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -201,12 +201,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 510478068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f6cf7b0ca3f11249b95da974414a461, type: 3}
+  m_Script: {fileID: 11500000, guid: 45620832b423b854eb0c6acd491529c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  img: {fileID: 2800000, guid: 613c336c718abf74c8295235bb0368e3, type: 3}
-  cool: 10
-  to_scene: Tutorial
+  cants: {fileID: 11400000, guid: fecd83394082d62dbac20c20a604e13b, type: 2}
+  to_scene: Juego
   current: Inicio
 --- !u!1 &963194225
 GameObject:

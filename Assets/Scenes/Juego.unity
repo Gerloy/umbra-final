@@ -372,7 +372,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 23488f0213790084d8cc8339169ea92e, type: 3}
+  m_Texture: {fileID: 2800000, guid: c04bf0caa2736652c8e54a9b37229868, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -404,7 +404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1355391515
 RectTransform:
   m_ObjectHideFlags: 0
@@ -552,13 +552,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67f16b15bf754d543881e9c0335ecd36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  osc: {fileID: 0}
   equipo: {fileID: 11400000, guid: 423be6266dba18d4daaccadf3bc5ff4d, type: 2}
   cants: {fileID: 11400000, guid: fecd83394082d62dbac20c20a604e13b, type: 2}
   to_scene: Victoria
   current: Juego
-  tiempo_total: 30
-  texto_cronometro: {fileID: 1355391514}
+  artistas: 
+  deportistas: 
+  cocineros: 
 --- !u!4 &1389719345
 Transform:
   m_ObjectHideFlags: 0
@@ -591,7 +591,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1808831960
 RectTransform:
   m_ObjectHideFlags: 0
