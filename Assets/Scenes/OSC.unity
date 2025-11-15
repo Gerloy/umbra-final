@@ -325,6 +325,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   osc: {fileID: 1960919187}
   cants: {fileID: 11400000, guid: fecd83394082d62dbac20c20a604e13b, type: 2}
+  snd_false: {fileID: 1170887450}
+  snd_true: {fileID: 1872906802}
 --- !u!1 &1872906801
 GameObject:
   m_ObjectHideFlags: 0
